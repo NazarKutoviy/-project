@@ -1,0 +1,105 @@
+body {
+  font-family: Roboto;
+  color: #ffffff;
+}
+ul,
+ol {
+  padding-left: 0px;
+  list-style: none;
+}
+.container {
+  width: 1110px;
+  margin: 0px 165px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.header-container {
+  display: flex;
+  background-color: #012d63;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+.header-list-languages {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+.header-list {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+}
+.header-logo {
+  margin-right: 152px;
+}
+.header-link {
+  text-decoration: none;
+}
+.dream-Nike {
+  background-image: url(./img/Nike.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 94px;
+  margin-bottom: 183px;
+}
+.dream-Nike-btn {
+  width: 254px;
+  height: 67px;
+  top: 698px;
+  left: 165px;
+  border-radius: 10px;
+}
+.our-advantages {
+  background-image: url(./img/lights.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.our-advantages-list {
+  display: flex;
+  flex-direction: row;
+}
+.comment {
+  background-image: url(./img/light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.comment-title {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.Order {
+  background-image: url(./img/blue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Order-container {
+  display: flex;
+  flex-direction: column;
+}
+.Order-title {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Order-btn {
+  width: 248px;
+  height: 68px;
+  top: 2478px;
+  left: 596px;
+  border-radius: 16px;
+}
+.footer {
+  background-color: #021635;
+  color: #ffffff;
+}

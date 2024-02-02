@@ -1,6 +1,5 @@
 body {
   font-family: Roboto;
-  color: #ffffff;
 }
 ul,
 ol {
@@ -14,58 +13,228 @@ ol {
 .header {
   display: flex;
   flex-direction: row;
+  background-color: #012d63;
+  list-style: none;
 }
 .header-container {
   display: flex;
-  background-color: #012d63;
+}
+.header-photo {
+  width: 100px;
+  height: 60px;
+  margin-right: 152px;
+  margin-top: 14px;
+  margin-bottom: 16px;
 }
 nav {
   display: flex;
   flex-direction: row;
 }
-.header-list-languages {
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
+.header-link {
+  text-decoration: none;
+  color: rgba(199, 199, 199, 1);
 }
 .header-list {
   display: flex;
   flex-direction: row;
   gap: 23px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.header-logo {
-  margin-right: 152px;
+.header-list-languages {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.header-link {
+.header-list-languages {
+  margin-left: 73px;
+  gap: 15px;
+}
+.a {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header-item-languages-eng {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header-link-first {
+  color: rgba(255, 255, 255, 1);
   text-decoration: none;
 }
-.dream-Nike {
+.header-link-eng {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.dream-nike {
   background-image: url(./img/Nike.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 94px;
-  margin-bottom: 183px;
+  color: #ffffff;
 }
-.dream-Nike-btn {
+.dream-nike-photo {
+  width: 160px;
+  height: 120px;
+  top: 184px;
+  left: 171px;
+  margin-top: 94px;
+  margin-bottom: 0px;
+}
+.dream-nike-title-c {
+  width: 178px;
+  height: 86px;
+  top: 269px;
+  left: 196px;
+  font-family: PT Serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.dream-nike-title-col {
+  width: 640px;
+  height: 192px;
+  top: 309px;
+  left: 157px;
+  font-family: Playfair Display;
+  font-size: 144px;
+  font-weight: 400;
+  line-height: 192px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.dream-nike-title {
+  width: 540px;
+  height: 96px;
+  top: 465px;
+  left: 165px;
+  font-family: Playfair Display;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.dream-nike-text {
+  width: 508px;
+  height: 84px;
+  top: 573px;
+  left: 165px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 41px;
+}
+.dream-nike-btn {
   width: 254px;
   height: 67px;
   top: 698px;
   left: 165px;
   border-radius: 10px;
+  color: #ffffff;
+  background-color: rgba(142, 50, 198, 1);
+  border: none;
+  cursor: pointer;
+  margin-bottom: 183px;
+}
+.dream-nike-btn:hover {
+  background-color: rgb(122, 44, 171);
 }
 .our-advantages {
   background-image: url(./img/lights.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: #ffffff;
+  padding-top: 105px;
+  padding-bottom: 105px;
 }
 .our-advantages-list {
   display: flex;
   flex-direction: row;
+  border: #8e32c6 solid 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.our-advantages-item {
+  margin: 25px 50px;
+}
+.line-first {
+  border-right: 1px solid #ffffff;
+  padding-right: 50px;
+  margin-right: 0px;
+}
+.center-item {
+  margin: 25px 95px 19px 94px;
+}
+.line-second {
+  border-left: 1px solid #ffffff;
+  padding-left: 50px;
+  margin-left: 0px;
+}
+.our-advantages-text {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 161px;
+  height: 102px;
+}
+.center-text {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.our-advantages-photo {
+  width: 240px;
+  height: 240px;
+  margin: 0;
 }
 .comment {
   background-image: url(./img/light.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: #ffffff;
+  border-bottom: solid 2px rgba(255, 255, 255, 1);
+  border-top: solid 2px rgba(255, 255, 255, 1);
+}
+.comment-container {
+  padding: 25px 80px 115px 80px;
+  position: relative;
 }
 .comment-title {
   font-family: Playfair Display;
@@ -75,31 +244,304 @@ nav {
   letter-spacing: 0em;
   text-align: center;
 }
-.Order {
+.comment-img {
+  position: absolute;
+  bottom: 0;
+  left: -165px;
+}
+.img-div-list {
+  width: 340px;
+  height: 380px;
+  top: 1694px;
+  left: -114px;
+}
+.comment-list {
+  display: flex;
+  flex-direction: row;
+  gap: 93px;
+}
+.comment-item-once {
+  box-shadow: 0px 14px 0px -5px rgba(123, 84, 178, 1),
+    0px 30px 0px -13px rgba(83, 57, 120, 1);
+  background: linear-gradient(
+    136.55deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  width: 255px;
+  height: 292px;
+  top: 1668px;
+  left: 244px;
+  border-radius: 15px;
+}
+.comment-item-second {
+  width: 255px;
+  height: 292px;
+  top: 1668px;
+  left: 592px;
+  border-radius: 15px;
+  box-shadow: 0px 14px 0px -5px rgba(145, 89, 177, 1),
+    0px 30px 0px -13px rgba(97, 51, 124, 1);
+  background: linear-gradient(
+    136.55deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+}
+.comment-item-tree {
+  width: 255px;
+  height: 292px;
+  top: 1668px;
+  left: 940px;
+  border-radius: 15px;
+  background: linear-gradient(
+    142.67deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  box-shadow: 0px 14px 0px -5px rgba(185, 90, 76, 1),
+    0px 30px 0px -13px rgba(115, 47, 38, 1);
+}
+.comment-text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 49px 14px 8px 13px;
+}
+.comment-text-time {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 13px;
+  margin-right: 206px;
+  margin-bottom: 47px;
+  color: rgba(216, 216, 216, 1);
+}
+.comment-text-name {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 1px;
+  margin-top: 0px;
+}
+.comment-text-year {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+  color: rgba(216, 216, 216, 1);
+}
+.comment-photo {
+  height: 31px;
+  width: 31px;
+  display: block;
+  margin: 0px 5px 29px 13px;
+}
+.dad {
+  display: flex;
+}
+.order {
   background-image: url(./img/blue.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: #ffffff;
 }
-.Order-container {
+.order-container {
   display: flex;
   flex-direction: column;
 }
-.Order-title {
+.order-title {
   font-family: Playfair Display;
   font-size: 48px;
   font-weight: 400;
   line-height: 64px;
   letter-spacing: 0em;
   text-align: left;
+  display: flex;
+  justify-content: center;
 }
-.Order-btn {
+.label {
+  margin-left: auto;
+  margin-right: auto;
+}
+.order-label-email {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: white;
+  width: 690px;
+  height: 60px;
+  border-radius: 50px;
+  margin-bottom: 19px;
+}
+.center-label {
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  margin-left: 25px;
+  outline: none;
+  margin-right: auto;
+}
+.order-input-email {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  border: none;
+}
+.order-input {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.order-btn-input {
+  width: 250px;
+  height: 50px;
+  top: 2197px;
+  left: 808px;
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 5px 7px 5px 203px;
+  color: rgba(141, 141, 141, 1);
+}
+.order-label {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: white;
+  width: 580px;
+  height: 50px;
+  border-radius: 50px;
+}
+.order-btn {
   width: 248px;
   height: 68px;
   top: 2478px;
   left: 596px;
   border-radius: 16px;
+  color: #ffffff;
+  background-color: rgba(142, 50, 198, 1);
+  border: none;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 19px;
+  margin-bottom: 40px;
+}
+.order-btn:hover {
+  background-color: rgb(122, 44, 171);
 }
 .footer {
   background-color: #021635;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+}
+.footer-text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba (255, 255, 255, 1);
+  margin: 0px;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+.footer-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.center-footer-item {
+  margin: 10px 0px;
+}
+.footer-link {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: flex-end;
+}
+.line-footer {
+  border-bottom: #9b9b9b solid 1px;
+  padding-bottom: 20px;
+}
+.footer-div {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-under-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-text-adress {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer-text-country {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer-text-logo {
+  font-family: PT Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
 }
